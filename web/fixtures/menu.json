@@ -1,0 +1,155 @@
+[
+{
+    "model": "menu.menu",
+    "pk": 1,
+    "fields": {
+        "parent": null,
+        "label": "Меню 1",
+        "link": ""
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 2,
+    "fields": {
+        "parent": 1,
+        "label": "1_1",
+        "link": "/1_1"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 3,
+    "fields": {
+        "parent": 1,
+        "label": "1_2",
+        "link": "/1_2"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 4,
+    "fields": {
+        "parent": 2,
+        "label": "1_1_1",
+        "link": "/1_1_1"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 5,
+    "fields": {
+        "parent": 2,
+        "label": "1_1_2",
+        "link": "/1_1_2"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 6,
+    "fields": {
+        "parent": 2,
+        "label": "1_1_3",
+        "link": "/1_1_3"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 7,
+    "fields": {
+        "parent": 3,
+        "label": "1_2_1",
+        "link": "/1_2_1"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 8,
+    "fields": {
+        "parent": 3,
+        "label": "1_2_2",
+        "link": "/1_2_2"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 9,
+    "fields": {
+        "parent": 4,
+        "label": "1_1_1_1",
+        "link": "/1_1_1_1"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 10,
+    "fields": {
+        "parent": 4,
+        "label": "1_1_1_2",
+        "link": "/1_1_1_2"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 11,
+    "fields": {
+        "parent": 4,
+        "label": "1_1_1_3",
+        "link": "/1_1_1_3"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 12,
+    "fields": {
+        "parent": 9,
+        "label": "1_1_1_1_1",
+        "link": "/1_1_1_1_1"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 13,
+    "fields": {
+        "parent": 9,
+        "label": "1_1_1_1_2",
+        "link": "/1_1_1_1_2"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 14,
+    "fields": {
+        "parent": null,
+        "label": "Меню 2",
+        "link": ""
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 15,
+    "fields": {
+        "parent": 14,
+        "label": "2_1",
+        "link": "/2_1"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 16,
+    "fields": {
+        "parent": 14,
+        "label": "2_2",
+        "link": "/2_2"
+    }
+},
+{
+    "model": "menu.menu",
+    "pk": 17,
+    "fields": {
+        "parent": 16,
+        "label": "2_2_1",
+        "link": "/2_2_1"
+    }
+}
+]
